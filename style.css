@@ -12,6 +12,7 @@ body{
     background-repeat: no-repeat;
 }
 .logo{
+ 
     height: 10%;
     width: 100vw;
 }
@@ -23,6 +24,7 @@ body{
     height: 80%;
 }  
 .mockup{
+  
     height: 40%;
     background-image: url(images/illustration-mockups.svg);
     background-repeat: no-repeat;
@@ -30,18 +32,16 @@ body{
     background-position: bottom;
 }
 .description{
-    /* background-color: lightcoral; */
+ 
     height: 60%;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 10px;
- 
+    padding: 0 10px; 
 }
-h1{ 
-    
+h1{    
     color: white;
     font-weight: 500;
     font-size: 30px;
@@ -61,15 +61,8 @@ p{
     width: 200px;
     text-align: center;
     border-radius: 30px;
-    padding: 10px;
-   
-    
+    padding: 10px;    
 }
-
-
-
-
-
 footer{
    height: 10%;
    position: absolute;
@@ -81,4 +74,51 @@ footer{
    word-spacing: 20px;
    font-size: 32px;
    color: white;
+}
+
+/* Desktop version */
+
+@media only screen and (min-width: 992px) {
+
+body{
+    background-size: ;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+   .Container{
+     display: flex;
+     width: 100vw;
+     /* padding: 50px 50px 0 50px; */
+   }
+   .mockup {
+    height: 100%;
+    flex: 2;  
+    background-position: center;
+    background-size: 80%;
+  }
+  .description {
+    height: 100%;
+    flex: 1;
+    gap:40px;
+  }
+  h1{
+    color: white;
+    font-weight: 500;
+    font-size: 40px; 
+      
+  }
+p{
+    align-items: ;
+}
+
+  .button{
+    /* margin: auto; */
+  }
+footer{
+    text-align: end;
+    padding-right: 70px;
+}
+
 }
